@@ -52,11 +52,11 @@ for episode in range(episodes):
     total_rewards = 0
 
     print("***************************************************************")
-    print("Episode: {}/{}, score: {}, epsilon value: {:2}"
-          .format(episode, episodes, step, epsilon))
+    print("Episode: {}/{}, epsilon value: {:2}"
+          .format(episode, episodes, epsilon))
 
     for step in range(steps):
-        #env.render()
+        # env.render()
         # exploration -exploitation trade-off
         exp_exp_tradeoff = random.uniform(0, 1)
         if exp_exp_tradeoff > epsilon:
@@ -65,8 +65,8 @@ for episode in range(episodes):
         else:
             action = env.action_space.sample()
         new_state, reward, done, info = env.step(action)
-        qtable[state, action] = qtable[state, action] + lr *             (reward + gamma *
-             np.max(qtable[new_state, :]) - qtable[state, action])
+        qtable[state, action] = qtable[state, action] + lr * (reward + gamma *
+                                                              np.max(qtable[new_state, :]) - qtable[state, action])
 
         total_rewards += reward  # update total rewards
 
@@ -78,7 +78,8 @@ for episode in range(episodes):
     episode += 1
 
     # Reduce epsilon (because we need less and less exploration and more exploitation)
-    epsilon = min_epsilon + (max_epsilon - min_epsilon) *         np.exp(-decay_rate * episode)
+    epsilon = min_epsilon + (max_epsilon - min_epsilon) * \
+        np.exp(-decay_rate * episode)
     rewards.append(total_rewards)
 
     print("Score over time: " + str(sum(rewards) / episodes))
@@ -100,7 +101,3 @@ env.close()
 
 
 # In[ ]:
-
-
-
-
