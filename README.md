@@ -1,4 +1,4 @@
-# FrozenLake with Deep Q Learning Algorithm
+      # FrozenLake with Deep Q Learning Algorithm
 
 **EDIT:** **You may have trouble opening the ```.ipynb``` file, try the ```.py``` file instead they contain the same code.**
 
