@@ -11,7 +11,7 @@ In this algorithm, we use a Q table. Values in this table are based on explorati
 ```
  Q(s,a) => Q(s,a) + lr [R(s,a) + gamma * max Q(s',a') - Q(s,a)]
 ```
-Along the way, the agent gets a reward or a penalty. More in depth knowledge about this algorith can be found [here](https://blog.valohai.com/reinforcement-learning-tutorial-part-1-q-learning).
+Along the way, the agent gets a reward or a penalty. More in depth knowledge about this algorithm can be found [here](https://blog.valohai.com/reinforcement-learning-tutorial-part-1-q-learning).
 
 ## FrozenLake Game
 
