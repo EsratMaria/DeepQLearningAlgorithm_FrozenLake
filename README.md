@@ -15,7 +15,7 @@ Along the way, the agent gets a reward or a penalty. More in depth knowledge abo
 
 ## FrozenLake Game
 
-Imagine, you are standing on a frozen lake. The lake is not all frozen, there are some parts where the ice is very thin. You goal is to go from place S to G without falling into the holes.
+Imagine, you are standing on a frozen lake. The lake is not all frozen, there are some parts where the ice is very thin. Your goal is to go from place S to G without falling into the holes.
 
 ![](images/frozenlake.png)
 
