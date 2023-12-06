@@ -7,7 +7,7 @@ In this repository I try to implement **Deep Q Learning algorithm** in the **Fro
 
 ## Deep Q Learning 
 
-In this algorithm, we use a Q table. Values in this table are based on exploration and exploitation strategies. The agent takes an action based on the values on our Q table and moves towards the goal. Once agent changes from one state to another the calculation is done with the following equation:
+In this algorithm, we use a Q table. Values in this table are based on exploration and exploitation strategies. The agent takes an action based on the values on our Q table and moves towards the goal. Once the agent changes from one state to another the calculation is done with the following equation:
 ```
  Q(s,a) => Q(s,a) + lr [R(s,a) + gamma * max Q(s',a') - Q(s,a)]
 ```
