@@ -35,7 +35,7 @@ More about the **FrozenLake** environment can be found [here](https://analyticsi
 ## Libraries Used
 * random
 * numpy
- 
+
 ## How it Works
 
 Here my goal is to make the agent perform better with time as it learns from exploring the environment. The higher values on the Qtable are going to make the agent perform better and help to reach the goal with better rewards. 
