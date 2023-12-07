@@ -29,7 +29,7 @@ More about the **FrozenLake** environment can be found [here](https://analyticsi
 
 ## Built With
 * Python3
-* Keras (running tensorflow in the backend)
+* Keras (running TensorFlow in the backend)
 * gym -> details [here](http://gym.openai.com/docs/)
 
 ## Libraries Used
