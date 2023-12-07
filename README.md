@@ -25,7 +25,7 @@ Here,
 * F --> Solid Ice (Agent can stand)
 * H --> Hole (Agent falls through)
 
-More about **FrozenLake** environment can be found [here](https://analyticsindiamag.com/openai-gym-frozen-lake-beginners-guide-reinforcement-learning/).
+More about the **FrozenLake** environment can be found [here](https://analyticsindiamag.com/openai-gym-frozen-lake-beginners-guide-reinforcement-learning/).
 
 ## Built With
 * Python3
