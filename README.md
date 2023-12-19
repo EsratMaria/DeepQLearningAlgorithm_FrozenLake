@@ -1,7 +1,7 @@
 # FrozenLake with Deep Q Learning Algorithm
 
 **EDIT:** **You may have trouble opening the ```.ipynb``` file, try the ```.py``` file instead they contain the same code.**
- 
+
 
 In this repository I try to implement **Deep Q Learning algorithm** in the **FrozenLake** environment.
 
